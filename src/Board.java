@@ -113,7 +113,6 @@ public class Board {
                 label.setFont(new java.awt.Font("Dialog", Font.BOLD, 50));
                 label.setText(String.valueOf(number));
             }
-
             Color currColor = colorMap.get(number);
             label.setBackground(new java.awt.Color(currColor.bgColor));
             label.setForeground(new java.awt.Color(currColor.fontColor));
