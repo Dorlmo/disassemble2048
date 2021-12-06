@@ -32,7 +32,6 @@ public class AbstractBoard {
                 twoNum--;
             }
         }
-
     }
 
     public void doAction(direction dir) {
